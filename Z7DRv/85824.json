@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：复盘总结：缓存改造业务落地踩坑复盘
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41502825.html
+
+原标题：nodejs 集成测试业务流程编写
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/95847028.html
+
+原标题：golang 系统设计索引设计通用方法论汇总
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/59381391.html
+
+原标题：异步异常捕获避免进程崩溃
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/26447370.html
+
+原标题：golang websocket 服务端开发
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/64503684.html
+
+原标题：golang mongodb 聚合管道实操案例
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74847031.html
+
+原标题：golang 系统设计排行榜几种实现
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/85946079.html
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07458473.html
+
+原标题：CI/CD 流水线自动构建部署落地
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/39562581.html
+
+原标题：快速入门YAML配置文件语法与示例
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/43896814.html
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/51570791.html
+
+原标题：优化实践：接口批量合并减少网络请求次数
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/52684671.html
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96057039.html
+
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07138172.html
+
+原标题：架构复盘：数据库索引架构设计原则与边界
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/63625958.html
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/58168273.html
+
+原标题：golang 系统设计线程协程泄露定位方法
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/39451362.html
+
+原标题：golang 系统设计配置回滚版本历史记录实现
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07236870.html
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/59703795.html
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/69492473.html
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41480703.html
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/13504628.html
+
+原标题：golang 互斥锁读写锁并发安全
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96257362.html
+
+原标题：golang 系统设计压测环境隔离避免影响生产
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/52791802.html
+
+原标题：golang gin 静态资源访问配置
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/29262373.html
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/29958362.html
+
+原标题：踩坑：对象未释放，长时间运行内存持续上涨
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/49493684.html
+
+原标题：golang 优雅处理数据库事务
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/08139138.html
+
+原标题：golang pprof 线上采集性能数据
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/37780291.html
+
+原标题：全量回归测试提升代码质量
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41574717.html
+
+原标题：数据库分表存储大表优化方案
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/63784696.html
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41504835.html
+
+原标题：golang ci 流水线代码质量扫描集成
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41591805.html
+
+原标题：Hands‑on：简易图片压缩处理服务demo
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/63684691.html
+
+原标题：golang grafana 面板变量模板制作
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96025350.html
+
+原标题：复盘总结：线上故障完整复盘报告模板示例
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/04236847.html
+
+原标题：多版本开发环境共存配置
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74702803.html
+
+原标题：golang github actions 发布 release 包
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/58492402.html
+
+原标题：golang 信号捕获程序退出处理
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/02903914.html
+
+原标题：实战项目：前端资源打包体积优化完整实操
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/18058060.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Practice：实现定时任务动态启停管理接口
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/17026179.html
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：跨平台 uniapp 多端开发实操，uniapp 开发一套代码，编译多端，梳理多端差异处理与适配技巧。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07459582.html
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/60491817.html
+
+原标题：golang 系统设计消息可靠性投递实现
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/62613689.html
+
+原标题：golang http 代理客户端配置
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/04936949.html
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/63723697.html
+
+原标题：静态站点自动部署发布方案
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/18169589.html
+
+原标题：golang 系统设计分布式事务几种方案优缺点
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07569170.html
+
+原标题：golang 系统设计消息队列 topic 设计原则梳理
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/52791817.html
+
+原标题：方案对比：同步事务vs事务消息最终一致性
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/51273914.html
+
+原标题：golang 系统设计故障演练简单思路
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/28381514.html
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/95349170.html
+
+原标题：安全实践：备份文件访问权限安全管控
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96070380.html
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41504035.html
+
+原标题：golang mysql 读写分离简单实现
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/84825247.html
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/39592413.html
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07069589.html
+
+原标题：项目语义化版本号规范管理
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74028139.html
+
+原标题：实践：数据库回滚点业务调试实践
+简介：golang go1.18 + 泛型基础实操，go 泛型基础语法，泛型函数泛型类型，实现通用工具函数。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/28241469.html
+
+原标题：效率笔记：Makefile项目构建脚本编写实践
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/18725146.html
+
+原标题：数值 key 浮点匹配异常规避
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/29402792.html
+
+原标题：gRPC 服务端客户端入门示例
+简介：静态站点自动部署发布方案，配置流水线，代码更新自动构建静态站点并且部署上线，简化发布。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74535136.html
+
+原标题：运维笔记：CI流水线缓存策略加速构建速度
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/40413914.html
+
+原标题：golang 分布式锁 redis 实现
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/10472684.html
+
+原标题：Architecture：API网关核心能力与组件拆分
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/14728035.html
+
+原标题：golang 内存 pprof 定位内存泄漏
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74913247.html
+
+原标题：正则表达式优化 CPU 占满问题
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/95945029.html
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/30461795.html
+
+原标题：数据库 utf8mb4 支持 emoji 存储
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/95915924.html
+
+原标题：文件句柄耗尽资源泄露处理
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/31680414.html
+
+原标题：golang 系统设计网关请求日志 traceId 透传实现
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96927140.html
+
+原标题：运维笔记：线上服务健康检查脚本编写
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/92024257.html
+
+原标题：Hands‑on：手写简单RPC框架基础通信版本
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/40574690.html
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/29477479.html
+
+原标题：本地运行正常线上报错排查
+简介：golang 容器内读取 k8s 配置 configmap，程序读取 k8s configmap 配置，配置与镜像分离便于运维。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96257359.html
+
+原标题：Practice：实现限流之后友好业务返回处理
+简介：跨库查询性能优化处理，减少跨库关联查询，做数据冗余或者中间表，规避跨库查询性能低下。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/09473473.html
+
+原标题：线上故障：热点Key打满RedisCPU节点过载
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/98289180.html
+
+原标题：golang 容器健康检查接口开发
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/25356957.html
+
+原标题：OpenSource：大型仓库Git历史清理瘦身实操
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/64801454.html
+
+原标题：Docker 容器时区错误修复方案
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/71524917.html
+
+三、实战开发｜Practice
+原标题：任务执行锁防止并发重复调度
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/26180291.html
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/85683803.html
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07582684.html
+
+原标题：golang 系统设计缓存优化落地实操指南
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/51413249.html
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/51903915.html
+
+原标题：golang k8s 监控 prometheus 部署
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/30694814.html
+
+原标题：golang grafana 监控面板简单配置
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/30461571.html
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96926815.html
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/61412524.html
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/95938161.html
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74845148.html
+
+原标题：实战：对象存储断点续传下载实践
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74845148.html
+
+原标题：golang 系统设计定时任务分片执行分布式思路
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/62746240.html
+
+原标题：大事务拆分防止连接池耗尽
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/54513637.html
+
+原标题：新手指南：如何读懂开源项目报错日志
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/35967031.html
+
+原标题：golang 系统设计蓝绿发布滚动发布对比
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/29351361.html
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07147459.html
+
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/95623915.html
+
+原标题：排错：CI缓存策略错误，每次全量重新构建
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/82914358.html
+
+原标题：实战：Nginx实现文件限速下载配置实践
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/18846936.html
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/30614036.html
+
+原标题：Architecture：大文件上传下载系统架构设计
+简介：golang go 第三方库选型评估要点，评估库活跃度维护情况、性能、依赖数量，选择合适开源库。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/39389202.html
+
+原标题：用户敏感数据脱敏代码实现
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/96161473.html
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/84894623.html
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/52372474.html
+
+原标题：gitignore 文件编写过滤规则
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/74868581.html
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/85037141.html
+
+原标题：golang gorm 预加载关联查询优化
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/70791781.html
+
+原标题：实战：GraphQL服务搭建与CRUD实操
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/63704708.html
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/25472511.html
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/63727929.html
+
+原标题：部署实践：Nginx反向代理传递真实客户端IP
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/30472804.html
+
+原标题：Hands‑on：简易熔断逻辑状态机原型实现
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/40450393.html
+
+原标题：Mock 接口服务快速搭建实操
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/40582737.html
+
+原标题：golang md5 sha 加密工具实现
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/73845950.html
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41826249.html
+
+原标题：前端大文件分片上传完整方案
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/30573582.html
+
+原标题：新手向：开源项目fork与同步上游代码
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/71934738.html
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41482414.html
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/52706919.html
+
+四、架构设计｜Architecture
+原标题：优化实践：异步改造同步接口提升吞吐能力
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/21583586.html
+
+原标题：golang toml 配置文件解析教程
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/07149503.html
+
+原标题：golang 消息队列 kafka 消费开发
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/30471462.html
+
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/24473584.html
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/85156247.html
+
+原标题：golang 系统设计防重复提交实现
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/91546251.html
+
+原标题：实践：OpenAPI自动生成接口文档完整实践
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/70415746.html
+
+原标题：golang 系统设计秒杀防超卖方案
+简介：读懂开源项目 README 实用技巧，教你快速解析开源项目说明文档，提取安装、运行、配置关键信息，快速上手项目。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/29391405.html
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/41582573.html
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/18250351.html
+
+原标题：前端打包分包加载提速方案
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/84916958.html
+
+原标题：方案设计：接口版本管理架构向前兼容策略
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/53693925.html
+
+原标题：golang 项目 go mod 依赖管理
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/25579592.html
+
+原标题：golang 系统设计定时任务调度时间校准要点
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/13767068.html
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/53792625.html
+
+原标题：性能笔记：TCP参数内核调优服务高并发场景
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/85845849.html
+
+原标题：golang ci 流水线环境变量管理方案
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/05928021.html
+
+原标题：手写简易 ORM 理解对象映射
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://www.blog.yvggo.cn/fcvie/84957358.html
+
+?
