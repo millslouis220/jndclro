@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang dockerfile 多阶段构建详解
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/07137362.html
+
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/26270703.html
+
+原标题：踩坑：分布式事务状态不一致数据两边不一致
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41505726.html
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85802892.html
+
+原标题：记一次GC频繁，服务CPU持续高负载排查
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18020258.html
+
+原标题：golang redis 锁超时业务处理
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/96957923.html
+
+原标题：golang 接口请求日志记录中间件
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/96039168.html
+
+原标题：golang etcd watch 监听配置变更
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/32579582.html
+
+原标题：对象存储上传下载权限实操
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/37067070.html
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/07058491.html
+
+原标题：golang 跨域处理中间件编写
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/11503735.html
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74791818.html
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85906838.html
+
+原标题：数据库死锁成因规避方案
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/93023025.html
+
+原标题：golang es bool 查询条件组合技巧
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/28349503.html
+
+原标题：golang redis 缓存预热实现思路
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/32683580.html
+
+原标题：效率笔记：终端开发工具提升日常调试效率
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/86137816.html
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/52582473.html
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/52580681.html
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/92671702.html
+
+原标题：golang 系统设计网关路由规则动态配置实现
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85911824.html
+
+原标题：性能复盘：慢SQL定位、分析、改写完整案例
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/60300403.html
+
+原标题：css 变量主题切换方案实现
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/10479584.html
+
+原标题：golang k8s 节点污点容忍度配置
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/63289506.html
+
+原标题：磁盘占满服务不可用清理方案
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18251474.html
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85619247.html
+
+原标题：坑点：gitpull冲突处理不当造成代码丢失
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/71243465.html
+
+原标题：Docker 网络模式容器互通设置
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/48774779.html
+
+原标题：golang url 参数编码处理方案
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/12243557.html
+
+原标题：快速启动：本地运行开源项目排障清单
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/77451120.html
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85816810.html
+
+原标题：前端打包分包加载提速方案
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29372573.html
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74796957.html
+
+原标题：实践：Git大仓库历史清理减小仓库体积实践
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/17584704.html
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18502870.html
+
+原标题：golang mongodb 事务多文档使用
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/69284683.html
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/48201402.html
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang 链路追踪简易实现方案，简易链路追踪实现，传递 traceId，记录调用链路，方便排查慢调用。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74849037.html
+
+原标题：快速上手简单的限流逻辑模拟实现
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/93136251.html
+
+原标题：golang http client 连接池调优
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/96034039.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：nodejs 定时任务生产环境避坑
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/07078038.html
+
+原标题：golang 系统设计秒杀防超卖方案
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/64917025.html
+
+原标题：大事务拆分防止连接池耗尽
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/81915247.html
+
+原标题：设计思考：业务埋点架构日志埋点设计原则
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41572516.html
+
+原标题：golang k8s helm chart 简单编写
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/52623580.html
+
+原标题：Performance：避免大报文，减少内存占用优化
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74706914.html
+
+原标题：安全复盘：消息队列未授权访问安全加固
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/26957959.html
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/52805713.html
+
+原标题：golang 系统设计数据库连接池调优实践
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/37503914.html
+
+原标题：vite 项目配置与构建提速技巧
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/84148179.html
+
+原标题：golang 系统设计 go netpoll 多路复用简单理解
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/79482802.html
+
+原标题：golang redis pipeline 原子性说明
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/28201470.html
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29303025.html
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/62696925.html
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/30473513.html
+
+原标题：零基础理解跨域问题产生原因与基础方案
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29403626.html
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29272580.html
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/40690695.html
+
+原标题：golang k8s 基础概念 pod deployment
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/73024813.html
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85845118.html
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/51512813.html
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/03724625.html
+
+原标题：golang 系统设计开源 issue 处理回复沟通技巧
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/96179586.html
+
+原标题：golang 结构体 json 序列化坑点
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/40813014.html
+
+原标题：golang 工具函数库封装思路
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/63794626.html
+
+原标题：golang grpc protobuf 开发实操
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41523939.html
+
+原标题：线上接口超时故障排查思路
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/92034028.html
+
+原标题：主干开发团队代码合并策略
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/63302140.html
+
+原标题：golang docker compose 本地开发最佳实践
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/97151469.html
+
+原标题：golang docker 部署 mysql 注意事项
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85912913.html
+
+原标题：service‑worker 离线缓存实践
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41593613.html
+
+原标题：golang minio 预签名 url 临时访问
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/59702925.html
+
+原标题：CI 持续集成自动构建流程
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/84246847.html
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/59605757.html
+
+原标题：缓存过期打散防止缓存雪崩
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/42805814.html
+
+原标题：golang 系统设计消息可靠性投递实现
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/07039140.html
+
+原标题：golang 系统设计内部服务契约测试简单思路
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/40472674.html
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/59823928.html
+
+原标题：简易日志收集集中管理方案
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/48589179.html
+
+原标题：golang 系统设计分布式锁可重入实现思路
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/30583686.html
+
+三、实战开发｜Practice
+原标题：golang gorm 批量插入性能调优
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/14979680.html
+
+原标题：golang consul 服务发现简单示例
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85250258.html
+
+原标题：golang 系统设计日志规范结构化日志落地
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74844969.html
+
+原标题：安全笔记：文件下载接口路径校验安全
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/21482584.html
+
+原标题：golang 大文件 http 下载服务
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/51680606.html
+
+原标题：部署实践：数据库迁移脚本版本管理实践
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29392462.html
+
+原标题：express 中间件开发业务实践
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/93040368.html
+
+原标题：golang 系统设计分布式事务几种方案
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18361435.html
+
+原标题：nestjs 框架模块化项目搭建
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74801817.html
+
+原标题：优化实践：接口返回字段裁剪减少报文大小
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18148120.html
+
+原标题：分布式锁失效问题排查修复
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/09391702.html
+
+原标题：新手教程：gitrebase基础使用与风险提示
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74928170.html
+
+原标题：Security：业务操作审计日志安全留存
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18211462.html
+
+原标题：golang 系统设计错误码体系完整设计
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41579570.html
+
+原标题：golang 多协程任务池并发控制
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/62690704.html
+
+原标题：nodejs 全局异常捕获进程防护
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18373696.html
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/07149251.html
+
+原标题：性能笔记：TCP参数内核调优服务高并发场景
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41817928.html
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/85923916.html
+
+原标题：golang 系统设计技术债务识别登记治理思路
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/26480681.html
+
+原标题：快速上手单元测试，写出第一个测试用例
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18161368.html
+
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/17140392.html
+
+原标题：Hands‑on：简易图片压缩处理服务demo
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/25927924.html
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18589170.html
+
+原标题：golang 系统设计密码存储哈希加盐实现
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18251302.html
+
+原标题：golang 系统设计 lru 缓存算法实现思路
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/30361473.html
+
+原标题：golang 系统设计事务消息 rocketmq 简单原理
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/52592802.html
+
+原标题：golang redis 事务 multi exec 使用
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29967139.html
+
+原标题：golang 系统设计分表跨表 join 业务处理方案
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/14077029.html
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/58291614.html
+
+原标题：运维笔记：服务器定时任务运维脚本编写
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/48178230.html
+
+原标题：架构思考：单体应用向微服务拆分演进路径
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41522625.html
+
+原标题：坑点：Git仓库过大，clone速度极慢解决方案
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29782403.html
+
+原标题：时间精度统一业务判断修复
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/97035818.html
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/75927029.html
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/75927905.html
+
+原标题：DNS 解析异常第三方调用故障
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/29250391.html
+
+原标题：缓存穿透防护保护数据库
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18259280.html
+
+原标题：golang 项目 makefile 脚本编写
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/52572583.html
+
+原标题：简易日志收集集中管理方案
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/18289251.html
+
+四、架构设计｜Architecture
+原标题：nodejs 集群模式多核利用实现
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/52693914.html
+
+原标题：静态资源 404 路径打包修复
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/95519147.html
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/20573580.html
+
+原标题：golang jwt 鉴权中间件完整示例
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/63713928.html
+
+原标题：golang git 提交信息规范校验
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/81927128.html
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/36469146.html
+
+原标题：golang 系统设计 protobuf oneof 类型业务场景
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/17246859.html
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/41705736.html
+
+原标题：坑点：Docker资源限制未设置导致宿主机卡死
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/27250392.html
+
+原标题：优化实践：分页查询性能优化解决offset问题
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74816031.html
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/48170403.html
+
+原标题：golang 系统信号信号量处理
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/28391812.html
+
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/17146257.html
+
+原标题：架构笔记：业务系统反模式架构踩坑总结
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/74707917.html
+
+原标题：时间同步修复令牌提前过期
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/97144025.html
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/30390303.html
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/08240394.html
+
+原标题：部署实践：容器时区统一配置解决方案
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://www.blog.vxbel.cn/colrp/09135247.html
+
+?
